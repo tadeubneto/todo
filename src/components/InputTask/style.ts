@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const InputTaskContainer = styled.div`
 
     display: flex;
@@ -9,8 +8,6 @@ export const InputTaskContainer = styled.div`
     margin-top: -1.5rem;
 
 `
-
-
 export const TaskInput = styled.form`
 
     display: flex;
@@ -24,6 +21,7 @@ export const TaskInput = styled.form`
         border: 0;
         background: ${props => props.theme["gray-500"]};
         padding: 1rem;
+        color: ${props => props.theme["gray-200"]};
 
         &::placeholder{
             color: ${props => props.theme["gray-300"]}
